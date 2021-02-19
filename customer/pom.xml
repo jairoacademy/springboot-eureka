@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>academy.jairo</groupId>
-        <artifactId>springboot-eureca</artifactId>
+        <artifactId>springboot-eureka</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     
-    <artifactId>springboot-eureca-customer</artifactId>
+    <artifactId>springboot-eureka-customer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>customer</name>
     <description>Spring Boot Customer Service</description>
