@@ -38,11 +38,18 @@ docker-compose up -d
 ```
 
 ### Application is running...
-Amazing things that can be accessed (not yet, but coming soon) 
-- [API REST with Swagger](http://localhost:8080/swagger-ui.html)
+Amazing things that can be accessed (not yet, but coming soon)
+- [Service Registration and Discovery](http://localhost:8081)
+- [API REST with Swagger - Customer Module](http://localhost:8080/swagger-ui.html)
 - [Prometheus (coming soon)](http://localhost:9090)
 - [Grafana (coming soon)](http://localhost:3000)
 
 # 🚀 Tips 
 ### Improve your README!
 I recommend [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+### References
+- [DevDojo Academy](https://devdojo.academy/)
+- [Route Predicates](https://cloud.spring.io/spring-cloud-static/spring-cloud-gateway/2.1.5.RELEASE/multi/multi_gateway-request-predicates-factories.html)
+- [Spring Cloud Gateway](https://cloud.spring.io/spring-cloud-gateway/reference/html/)
+- [Spring Cloud Tutorial](https://www.javainuse.com/spring/cloud-gateway-eureka/)

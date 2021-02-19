@@ -1,6 +1,17 @@
 server:
   port: 8082
 
+spring:
+  application:
+    name: springboot-eureca-customer
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb?useSSl=false&createDatabaseIfNotExist=true
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
 eureka:
   instance:
     prefer-ip-address: true
@@ -9,16 +20,3 @@ eureka:
       defaultZone: http://localhost:8081/eureka
     fetch-registry: true
     register-with-eureka: true
-
-spring:
-  application:
-    name: springboot-eureca-customer
-
-  datasource:
-    url: jdbc:mysql://localhost:3306/mydb?useSSl=false&createDatabaseIfNotExist=true
-    username: root
-    password: root
-
-  jpa:
-    hibernate:
-      ddl-auto: update

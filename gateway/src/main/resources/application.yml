@@ -1,15 +1,6 @@
 server:
   port: 8080
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://localhost:8081/eureka
-    fetch-registry: true
-    register-with-eureka: true
-
 spring:
   application:
     name: springboot-eureca-gateway
@@ -19,4 +10,13 @@ spring:
         - id: customerModule
           uri: http://localhost:8082/
           predicates:
-            - Path=/customers/**
+            - Path=/customers/**,/swagger**
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+    fetch-registry: true
+    register-with-eureka: true
