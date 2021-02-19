@@ -38,7 +38,7 @@ docker-compose up -d
 ```
 
 ### Application is running...
-Amazing things that can be accessed (not yet, but coming soon)
+Amazing things that can be accessed
 - [Service Registration and Discovery](http://localhost:8081)
 - [API REST with Swagger - Customer Module](http://localhost:8080/swagger-ui.html)
 - [Prometheus (coming soon)](http://localhost:9090)
