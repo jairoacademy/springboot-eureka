@@ -3,7 +3,7 @@
 </p>
 
 ### Description
-- Simple, clean and modern Spring Cloud Gateway with Netflix Eureka Discovery Service with PostgreSQL database (MongoDB - Coming Soon)
+- Simple, clean and modern Spring Cloud Gateway with Netflix Eureka Discovery Service with MySQL (MongoDB - Coming Soon)
 
 ### Prerequisite to build e install 
 - [Java 11](https://adoptopenjdk.net/index.html)
