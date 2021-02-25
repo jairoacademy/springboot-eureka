@@ -19,6 +19,7 @@ Project is created with:
 * Spring Framework: 2.4.3
 * Docker: 2.4
 * MySQL: latest
+* MongoDB: latest 
 * Portainer: latest
 * Prometheus: latest (coming soon)
 * Grafana: latest (coming soon)
