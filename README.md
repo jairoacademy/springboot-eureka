@@ -3,13 +3,13 @@
 </p>
 
 ### Description
-- Simple, clean and modern Spring Cloud Gateway with Netflix Eureka Discovery Service with MySQL (MongoDB - Coming Soon)
+- Simple, clean and modern Spring Cloud Gateway with Netflix Eureka Discovery Service with MySQL and MongoDB
 
 ### Prerequisite to build e install 
 - [Java 11](https://adoptopenjdk.net/index.html)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Docker (coming soon)](https://docs.docker.com/engine/install/)
-- [Docker Compose (coming soon)](https://docs.docker.com/compose/install/)
+- [Docker](https://docs.docker.com/engine/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ### Technologies
 Project is created with:
@@ -32,7 +32,7 @@ git clone https://github.com/jairoacademy/springboot-eureka.git
 ```
 
 ### Setup 
-To run this project, install it locally using docker compose (coming soon):
+To run this project, install it locally using docker compose:
 ```
 docker-compose up -d
 ```

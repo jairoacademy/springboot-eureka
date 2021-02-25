@@ -1,0 +1,13 @@
+# Below, how to connect to container mongo db
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: springboot-eureka
+
+# Below, how to connect to cloud atlas:
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://springboot-eureka:<password>n@cluster0.jcse3.mongodb.net/eureka-logistic-db?retryWrites=true&w=majority
